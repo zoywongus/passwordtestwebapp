@@ -50,7 +50,7 @@ function sendtoapi(txtcardname,txtcardnum,txtdate,txtcvc){
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
-										'authorization': 'Bearer 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'
+										'authorization': 'Bearer APIKEYHERE'
                 }
             }
   request(clientServerOptions, function (error, response) {
