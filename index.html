@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<link rel="shortcut icon" href="css/yeahboy.ico">
+<title>Credit Card Encrypter Storer</title>
+<head>
+  <meta charset="UTF-8">
+  <title>Show My Password</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+  <main>
+  <div class="container">
+    <form action = "/info_submit" method="POST">
+      <h2>Secure Credit Card Encrypter Storer</h2>
+      <div class="input-group">
+        <label for="txtcardnum">Credit Card Number</label>
+        <input type="text" class="form-control" name="txtcardnum" id="txtcardnum"/>
+      </div>
+      <div class="input-group">
+        <label for="txtcardname">Name on Credit Card</label>
+        <input type="text" class="form-control" name="txtcardname" id="txtcardname"/>
+      </div>
+      <label for="txtdate">Expiry Date</label>
+    <input type="month" name="txtdate" id="txtdate" name="start"
+           min="2018-08" max="2030-12"/>
+      </br></br>
+    <span class="validity"></span>
+      <div class="input-group">
+        <label for="txtcvc">CVC</label></br>
+        <input type="password" id="txtcvc" class="form-control" name="txtcvc" maxlength="3" />
+        <button type="button" id="btnToggle" class="toggle"><i class="fa fa-eye"></i></button>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" id="gobtn" type="submit">Go!</button>
+    </form>
+  </div>
+</main>
+
+
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

